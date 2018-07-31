@@ -1,0 +1,675 @@
+[25-Jun-2018 00:58:54 UTC] PHP Parse error:  syntax error, unexpected ''<td>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 56
+[25-Jun-2018 00:58:54 UTC] PHP Stack trace:
+[25-Jun-2018 00:58:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[25-Jun-2018 00:59:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/nav.php:61) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/lib/common.php on line 3
+[25-Jun-2018 00:59:58 UTC] PHP Stack trace:
+[25-Jun-2018 00:59:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[25-Jun-2018 00:59:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:35
+[25-Jun-2018 00:59:58 UTC] PHP   3. include() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:3
+[25-Jun-2018 00:59:58 UTC] PHP   4. header() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/lib/common.php:3
+[25-Jun-2018 01:04:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/nav.php:61) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/lib/common.php on line 3
+[25-Jun-2018 01:04:21 UTC] PHP Stack trace:
+[25-Jun-2018 01:04:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[25-Jun-2018 01:04:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:35
+[25-Jun-2018 01:04:21 UTC] PHP   3. include() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:3
+[25-Jun-2018 01:04:21 UTC] PHP   4. header() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/lib/common.php:3
+[25-Jun-2018 01:05:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/nav.php:61) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/lib/common.php on line 3
+[25-Jun-2018 01:05:31 UTC] PHP Stack trace:
+[25-Jun-2018 01:05:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[25-Jun-2018 01:05:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:35
+[25-Jun-2018 01:05:31 UTC] PHP   3. include() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:3
+[25-Jun-2018 01:05:31 UTC] PHP   4. header() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/lib/common.php:3
+[25-Jun-2018 01:06:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 6
+[25-Jun-2018 01:06:43 UTC] PHP Stack trace:
+[25-Jun-2018 01:06:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[25-Jun-2018 01:06:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:35
+[25-Jun-2018 01:06:43 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:6
+[25-Jun-2018 01:06:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 7
+[25-Jun-2018 01:06:43 UTC] PHP Stack trace:
+[25-Jun-2018 01:06:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[25-Jun-2018 01:06:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:35
+[25-Jun-2018 01:06:43 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:7
+[25-Jun-2018 01:06:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 9
+[25-Jun-2018 01:06:43 UTC] PHP Stack trace:
+[25-Jun-2018 01:06:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[25-Jun-2018 01:06:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:35
+[25-Jun-2018 01:06:43 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:9
+[25-Jun-2018 01:06:43 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 12
+[25-Jun-2018 01:06:43 UTC] PHP Stack trace:
+[25-Jun-2018 01:06:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[25-Jun-2018 01:06:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:35
+[25-Jun-2018 01:13:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/nav.php:61) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/lib/common.php on line 3
+[25-Jun-2018 01:13:19 UTC] PHP Stack trace:
+[25-Jun-2018 01:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[25-Jun-2018 01:13:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:35
+[25-Jun-2018 01:13:19 UTC] PHP   3. include() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:3
+[25-Jun-2018 01:13:19 UTC] PHP   4. header() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/lib/common.php:3
+[25-Jun-2018 05:20:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 05:20:51 UTC] PHP Stack trace:
+[25-Jun-2018 05:20:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/user.php:0
+[25-Jun-2018 05:20:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/user.php:7
+[25-Jun-2018 05:20:51 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 05:20:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 05:20:51 UTC] PHP Stack trace:
+[25-Jun-2018 05:20:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/user.php:0
+[25-Jun-2018 05:20:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/user.php:7
+[25-Jun-2018 05:20:51 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 05:21:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 05:21:14 UTC] PHP Stack trace:
+[25-Jun-2018 05:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[25-Jun-2018 05:21:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[25-Jun-2018 05:21:14 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 05:21:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 05:21:14 UTC] PHP Stack trace:
+[25-Jun-2018 05:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[25-Jun-2018 05:21:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[25-Jun-2018 05:21:14 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 05:27:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 05:27:51 UTC] PHP Stack trace:
+[25-Jun-2018 05:27:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 05:27:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 05:27:51 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 05:27:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 05:27:51 UTC] PHP Stack trace:
+[25-Jun-2018 05:27:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 05:27:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 05:27:51 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 13:34:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 13:34:07 UTC] PHP Stack trace:
+[25-Jun-2018 13:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:34:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:34:07 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 13:34:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 13:34:07 UTC] PHP Stack trace:
+[25-Jun-2018 13:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:34:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:34:07 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 13:38:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 13:38:10 UTC] PHP Stack trace:
+[25-Jun-2018 13:38:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:38:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:38:10 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 13:38:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 13:38:10 UTC] PHP Stack trace:
+[25-Jun-2018 13:38:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:38:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:38:10 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 13:42:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 13:42:10 UTC] PHP Stack trace:
+[25-Jun-2018 13:42:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:42:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:42:10 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 13:42:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 13:42:10 UTC] PHP Stack trace:
+[25-Jun-2018 13:42:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:42:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:42:10 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 13:50:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 13:50:50 UTC] PHP Stack trace:
+[25-Jun-2018 13:50:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:50:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:50:50 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 13:50:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 13:50:50 UTC] PHP Stack trace:
+[25-Jun-2018 13:50:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:50:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:50:50 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 13:56:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 13:56:13 UTC] PHP Stack trace:
+[25-Jun-2018 13:56:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:56:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:56:13 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 13:56:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 13:56:13 UTC] PHP Stack trace:
+[25-Jun-2018 13:56:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:56:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:56:13 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 13:56:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 13:56:21 UTC] PHP Stack trace:
+[25-Jun-2018 13:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:56:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:56:21 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 13:56:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 13:56:21 UTC] PHP Stack trace:
+[25-Jun-2018 13:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:56:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:56:21 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 13:59:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 13:59:59 UTC] PHP Stack trace:
+[25-Jun-2018 13:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:59:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:59:59 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 13:59:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 13:59:59 UTC] PHP Stack trace:
+[25-Jun-2018 13:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 13:59:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 13:59:59 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:01:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:01:20 UTC] PHP Stack trace:
+[25-Jun-2018 14:01:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:01:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 14:01:20 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:01:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:01:20 UTC] PHP Stack trace:
+[25-Jun-2018 14:01:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:01:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 14:01:20 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:02:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:02:30 UTC] PHP Stack trace:
+[25-Jun-2018 14:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:02:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 14:02:30 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:02:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:02:30 UTC] PHP Stack trace:
+[25-Jun-2018 14:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:02:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:7
+[25-Jun-2018 14:02:30 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:06:23 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 3
+[25-Jun-2018 14:07:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:07:15 UTC] PHP Stack trace:
+[25-Jun-2018 14:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:07:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:11
+[25-Jun-2018 14:07:15 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:07:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:07:15 UTC] PHP Stack trace:
+[25-Jun-2018 14:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:07:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:11
+[25-Jun-2018 14:07:15 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:08:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:08:02 UTC] PHP Stack trace:
+[25-Jun-2018 14:08:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:08:02 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:12
+[25-Jun-2018 14:08:02 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:08:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:08:02 UTC] PHP Stack trace:
+[25-Jun-2018 14:08:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:08:02 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:12
+[25-Jun-2018 14:08:02 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:09:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:09:10 UTC] PHP Stack trace:
+[25-Jun-2018 14:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:09:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:11
+[25-Jun-2018 14:09:10 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:09:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:09:10 UTC] PHP Stack trace:
+[25-Jun-2018 14:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:09:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:11
+[25-Jun-2018 14:09:10 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:10:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:10:40 UTC] PHP Stack trace:
+[25-Jun-2018 14:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:10:40 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:10:40 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:10:40 UTC] PHP Stack trace:
+[25-Jun-2018 14:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:10:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:10:40 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:12:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:12:23 UTC] PHP Stack trace:
+[25-Jun-2018 14:12:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:12:23 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:12:23 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:12:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:12:23 UTC] PHP Stack trace:
+[25-Jun-2018 14:12:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:12:23 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:12:23 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:15:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:15:47 UTC] PHP Stack trace:
+[25-Jun-2018 14:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:15:47 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:15:47 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:15:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:15:47 UTC] PHP Stack trace:
+[25-Jun-2018 14:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:15:47 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:15:47 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:19:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:19:15 UTC] PHP Stack trace:
+[25-Jun-2018 14:19:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:19:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:19:15 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:19:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:19:15 UTC] PHP Stack trace:
+[25-Jun-2018 14:19:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:19:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:19:15 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:19:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:19:17 UTC] PHP Stack trace:
+[25-Jun-2018 14:19:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:19:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:19:17 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:19:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:19:17 UTC] PHP Stack trace:
+[25-Jun-2018 14:19:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:19:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:19:17 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:19:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:19:18 UTC] PHP Stack trace:
+[25-Jun-2018 14:19:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:19:18 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:19:18 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:19:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:19:18 UTC] PHP Stack trace:
+[25-Jun-2018 14:19:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:19:18 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:19:18 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:19:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:19:19 UTC] PHP Stack trace:
+[25-Jun-2018 14:19:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:19:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:19:19 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:19:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:19:19 UTC] PHP Stack trace:
+[25-Jun-2018 14:19:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:19:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:19:19 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:19:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:19:20 UTC] PHP Stack trace:
+[25-Jun-2018 14:19:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:19:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:19:20 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:19:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:19:20 UTC] PHP Stack trace:
+[25-Jun-2018 14:19:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:19:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:16
+[25-Jun-2018 14:19:20 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:20:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:20:57 UTC] PHP Stack trace:
+[25-Jun-2018 14:20:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:20:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:23
+[25-Jun-2018 14:20:57 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:20:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:20:57 UTC] PHP Stack trace:
+[25-Jun-2018 14:20:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:20:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:23
+[25-Jun-2018 14:20:57 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:21:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:21:00 UTC] PHP Stack trace:
+[25-Jun-2018 14:21:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:21:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:23
+[25-Jun-2018 14:21:00 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:21:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:21:00 UTC] PHP Stack trace:
+[25-Jun-2018 14:21:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:21:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:23
+[25-Jun-2018 14:21:00 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:22:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 15
+[25-Jun-2018 14:23:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:23:34 UTC] PHP Stack trace:
+[25-Jun-2018 14:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:23:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:23:34 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:23:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:23:34 UTC] PHP Stack trace:
+[25-Jun-2018 14:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:23:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:23:34 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:23:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:23:39 UTC] PHP Stack trace:
+[25-Jun-2018 14:23:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:23:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:23:39 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:23:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:23:39 UTC] PHP Stack trace:
+[25-Jun-2018 14:23:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:23:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:23:39 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:23:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:23:40 UTC] PHP Stack trace:
+[25-Jun-2018 14:23:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:23:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:23:40 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:23:40 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:23:40 UTC] PHP Stack trace:
+[25-Jun-2018 14:23:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:23:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:23:40 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:24:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:24:49 UTC] PHP Stack trace:
+[25-Jun-2018 14:24:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:24:49 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:24:49 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:24:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:24:49 UTC] PHP Stack trace:
+[25-Jun-2018 14:24:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:24:49 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:24:49 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:24:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:24:54 UTC] PHP Stack trace:
+[25-Jun-2018 14:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:24:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:24:54 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:24:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:24:54 UTC] PHP Stack trace:
+[25-Jun-2018 14:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:24:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:24:54 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:24:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:24:55 UTC] PHP Stack trace:
+[25-Jun-2018 14:24:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:24:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:24:55 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:24:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:24:55 UTC] PHP Stack trace:
+[25-Jun-2018 14:24:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:24:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:24:55 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:26:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:26:40 UTC] PHP Stack trace:
+[25-Jun-2018 14:26:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:26:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:26:40 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:26:40 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:26:40 UTC] PHP Stack trace:
+[25-Jun-2018 14:26:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:26:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:26:40 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:27:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:27:03 UTC] PHP Stack trace:
+[25-Jun-2018 14:27:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:27:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:27:03 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:27:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:27:03 UTC] PHP Stack trace:
+[25-Jun-2018 14:27:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:27:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:27:03 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:27:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:27:03 UTC] PHP Stack trace:
+[25-Jun-2018 14:27:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:27:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:27:03 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:27:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:27:03 UTC] PHP Stack trace:
+[25-Jun-2018 14:27:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:27:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:27:03 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:27:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:27:55 UTC] PHP Stack trace:
+[25-Jun-2018 14:27:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:27:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:27:55 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:27:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:27:55 UTC] PHP Stack trace:
+[25-Jun-2018 14:27:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:27:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:27:55 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:28:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:28:21 UTC] PHP Stack trace:
+[25-Jun-2018 14:28:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:28:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:28:21 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:28:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:28:21 UTC] PHP Stack trace:
+[25-Jun-2018 14:28:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:28:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:28:21 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 14:28:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 14:28:21 UTC] PHP Stack trace:
+[25-Jun-2018 14:28:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:28:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:28:21 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 14:28:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 14:28:21 UTC] PHP Stack trace:
+[25-Jun-2018 14:28:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 14:28:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 14:28:21 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 15:47:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 15:47:29 UTC] PHP Stack trace:
+[25-Jun-2018 15:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[25-Jun-2018 15:47:29 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[25-Jun-2018 15:47:29 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 15:47:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 15:47:29 UTC] PHP Stack trace:
+[25-Jun-2018 15:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[25-Jun-2018 15:47:29 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[25-Jun-2018 15:47:29 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[25-Jun-2018 15:47:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[25-Jun-2018 15:47:50 UTC] PHP Stack trace:
+[25-Jun-2018 15:47:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 15:47:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 15:47:50 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[25-Jun-2018 15:47:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[25-Jun-2018 15:47:50 UTC] PHP Stack trace:
+[25-Jun-2018 15:47:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[25-Jun-2018 15:47:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:21
+[25-Jun-2018 15:47:50 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[26-Jun-2018 16:39:49 UTC] PHP Parse error:  syntax error, unexpected ''ID'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 9
+[26-Jun-2018 16:39:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[26-Jun-2018 16:39:57 UTC] PHP Stack trace:
+[26-Jun-2018 16:39:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 16:39:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[26-Jun-2018 16:39:57 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[26-Jun-2018 16:39:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[26-Jun-2018 16:39:57 UTC] PHP Stack trace:
+[26-Jun-2018 16:39:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 16:39:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[26-Jun-2018 16:39:57 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[26-Jun-2018 16:41:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/header.php on line 6
+[26-Jun-2018 16:41:00 UTC] PHP Stack trace:
+[26-Jun-2018 16:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 16:41:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:5
+[26-Jun-2018 16:41:00 UTC] PHP   3. array_push() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/header.php:6
+[26-Jun-2018 16:41:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[26-Jun-2018 16:41:00 UTC] PHP Stack trace:
+[26-Jun-2018 16:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 16:41:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[26-Jun-2018 16:41:00 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[26-Jun-2018 16:41:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[26-Jun-2018 16:41:00 UTC] PHP Stack trace:
+[26-Jun-2018 16:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 16:41:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[26-Jun-2018 16:41:00 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[26-Jun-2018 16:41:40 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/header.php on line 5
+[26-Jun-2018 16:41:40 UTC] PHP Stack trace:
+[26-Jun-2018 16:41:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/user.php:0
+[26-Jun-2018 16:41:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/user.php:5
+[26-Jun-2018 16:41:40 UTC] PHP   3. array_push() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/header.php:5
+[26-Jun-2018 16:41:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[26-Jun-2018 16:41:40 UTC] PHP Stack trace:
+[26-Jun-2018 16:41:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/user.php:0
+[26-Jun-2018 16:41:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/user.php:7
+[26-Jun-2018 16:41:40 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[26-Jun-2018 16:41:40 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[26-Jun-2018 16:41:40 UTC] PHP Stack trace:
+[26-Jun-2018 16:41:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/user.php:0
+[26-Jun-2018 16:41:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/user.php:7
+[26-Jun-2018 16:41:40 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[26-Jun-2018 17:05:11 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/header.php on line 6
+[26-Jun-2018 17:05:11 UTC] PHP Stack trace:
+[26-Jun-2018 17:05:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 17:05:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:5
+[26-Jun-2018 17:05:11 UTC] PHP   3. array_push() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/header.php:6
+[26-Jun-2018 17:05:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[26-Jun-2018 17:05:11 UTC] PHP Stack trace:
+[26-Jun-2018 17:05:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 17:05:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[26-Jun-2018 17:05:11 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[26-Jun-2018 17:05:11 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[26-Jun-2018 17:05:11 UTC] PHP Stack trace:
+[26-Jun-2018 17:05:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 17:05:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[26-Jun-2018 17:05:11 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[26-Jun-2018 17:07:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[26-Jun-2018 17:07:13 UTC] PHP Stack trace:
+[26-Jun-2018 17:07:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 17:07:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[26-Jun-2018 17:07:13 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[26-Jun-2018 17:07:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[26-Jun-2018 17:07:13 UTC] PHP Stack trace:
+[26-Jun-2018 17:07:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 17:07:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[26-Jun-2018 17:07:13 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[26-Jun-2018 17:08:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 22
+[26-Jun-2018 17:08:21 UTC] PHP Stack trace:
+[26-Jun-2018 17:08:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 17:08:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[26-Jun-2018 17:08:21 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:22
+[26-Jun-2018 17:08:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php on line 23
+[26-Jun-2018 17:08:21 UTC] PHP Stack trace:
+[26-Jun-2018 17:08:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:0
+[26-Jun-2018 17:08:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resources.php:7
+[26-Jun-2018 17:08:21 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/sidebar.php:23
+[26-Jun-2018 17:17:03 UTC] PHP Parse error:  syntax error, unexpected ''ID'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 9
+[06-Jul-2018 14:54:14 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resourcereport.php on line 18
+[06-Jul-2018 19:07:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 28
+[06-Jul-2018 19:07:08 UTC] PHP Stack trace:
+[06-Jul-2018 19:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[06-Jul-2018 19:07:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:41
+[06-Jul-2018 19:07:08 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:28
+[06-Jul-2018 19:07:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 29
+[06-Jul-2018 19:07:08 UTC] PHP Stack trace:
+[06-Jul-2018 19:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[06-Jul-2018 19:07:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:41
+[06-Jul-2018 19:07:08 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:29
+[06-Jul-2018 19:07:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 30
+[06-Jul-2018 19:07:08 UTC] PHP Stack trace:
+[06-Jul-2018 19:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[06-Jul-2018 19:07:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:41
+[06-Jul-2018 19:07:08 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:30
+[06-Jul-2018 19:07:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 78
+[06-Jul-2018 19:07:08 UTC] PHP Stack trace:
+[06-Jul-2018 19:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[06-Jul-2018 19:07:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:41
+[06-Jul-2018 19:07:08 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:78
+[06-Jul-2018 19:07:08 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 81
+[06-Jul-2018 19:07:08 UTC] PHP Stack trace:
+[06-Jul-2018 19:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[06-Jul-2018 19:07:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:41
+[06-Jul-2018 19:07:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 78
+[06-Jul-2018 19:07:32 UTC] PHP Stack trace:
+[06-Jul-2018 19:07:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[06-Jul-2018 19:07:32 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:41
+[06-Jul-2018 19:07:32 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php:78
+[06-Jul-2018 19:07:32 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/views/_AddResourceForm.php on line 81
+[06-Jul-2018 19:07:32 UTC] PHP Stack trace:
+[06-Jul-2018 19:07:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[06-Jul-2018 19:07:32 UTC] PHP   2. require_once() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:41
+[06-Jul-2018 19:16:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 27
+[06-Jul-2018 19:16:56 UTC] PHP Stack trace:
+[06-Jul-2018 19:16:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:0
+[06-Jul-2018 19:16:56 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:27
+[06-Jul-2018 19:16:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 28
+[06-Jul-2018 19:16:56 UTC] PHP Stack trace:
+[06-Jul-2018 19:16:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:0
+[06-Jul-2018 19:16:56 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:28
+[06-Jul-2018 19:16:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 29
+[06-Jul-2018 19:16:56 UTC] PHP Stack trace:
+[06-Jul-2018 19:16:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:0
+[06-Jul-2018 19:16:56 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:29
+[06-Jul-2018 19:17:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 27
+[06-Jul-2018 19:17:27 UTC] PHP Stack trace:
+[06-Jul-2018 19:17:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:0
+[06-Jul-2018 19:17:27 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:27
+[06-Jul-2018 19:17:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 28
+[06-Jul-2018 19:17:27 UTC] PHP Stack trace:
+[06-Jul-2018 19:17:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:0
+[06-Jul-2018 19:17:27 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:28
+[06-Jul-2018 19:17:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 29
+[06-Jul-2018 19:17:27 UTC] PHP Stack trace:
+[06-Jul-2018 19:17:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:0
+[06-Jul-2018 19:17:27 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:29
+[06-Jul-2018 19:17:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 71
+[06-Jul-2018 19:17:27 UTC] PHP Stack trace:
+[06-Jul-2018 19:17:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:0
+[06-Jul-2018 19:17:27 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:71
+[06-Jul-2018 19:17:27 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 74
+[06-Jul-2018 19:17:27 UTC] PHP Stack trace:
+[06-Jul-2018 19:17:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php:0
+[06-Jul-2018 19:38:02 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 62
+[09-Jul-2018 22:32:34 UTC] PHP Parse error:  syntax error, unexpected 'array_push' (T_STRING) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 45
+[09-Jul-2018 23:23:52 UTC] PHP Warning:  include(/lib/common.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 3
+[09-Jul-2018 23:23:52 UTC] PHP Stack trace:
+[09-Jul-2018 23:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[09-Jul-2018 23:23:52 UTC] PHP Warning:  include(): Failed opening '/lib/common.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 3
+[09-Jul-2018 23:23:52 UTC] PHP Stack trace:
+[09-Jul-2018 23:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[09-Jul-2018 23:23:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 8
+[09-Jul-2018 23:23:52 UTC] PHP Stack trace:
+[09-Jul-2018 23:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[09-Jul-2018 23:23:52 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:8
+[09-Jul-2018 23:23:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 9
+[09-Jul-2018 23:23:52 UTC] PHP Stack trace:
+[09-Jul-2018 23:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[09-Jul-2018 23:23:52 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:9
+[09-Jul-2018 23:23:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 10
+[09-Jul-2018 23:23:52 UTC] PHP Stack trace:
+[09-Jul-2018 23:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[09-Jul-2018 23:23:52 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:10
+[09-Jul-2018 23:23:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 11
+[09-Jul-2018 23:23:52 UTC] PHP Stack trace:
+[09-Jul-2018 23:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[09-Jul-2018 23:23:52 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:11
+[11-Jul-2018 21:47:10 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 12
+[11-Jul-2018 21:51:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 40
+[11-Jul-2018 21:51:21 UTC] PHP Stack trace:
+[11-Jul-2018 21:51:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[11-Jul-2018 21:51:21 UTC] PHP   2. array_push() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:40
+[11-Jul-2018 21:51:26 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 40
+[11-Jul-2018 21:51:26 UTC] PHP Stack trace:
+[11-Jul-2018 21:51:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[11-Jul-2018 21:51:26 UTC] PHP   2. array_push() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:40
+[11-Jul-2018 22:06:40 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 40
+[11-Jul-2018 22:06:40 UTC] PHP Stack trace:
+[11-Jul-2018 22:06:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[11-Jul-2018 22:06:40 UTC] PHP   2. array_push() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:40
+[11-Jul-2018 22:09:20 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 40
+[11-Jul-2018 22:09:20 UTC] PHP Stack trace:
+[11-Jul-2018 22:09:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[11-Jul-2018 22:09:20 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:40
+[11-Jul-2018 22:09:20 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 41
+[11-Jul-2018 22:09:20 UTC] PHP Stack trace:
+[11-Jul-2018 22:09:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:0
+[11-Jul-2018 22:09:20 UTC] PHP   2. array_push() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php:41
+[11-Jul-2018 23:24:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 13
+[11-Jul-2018 23:24:22 UTC] PHP Stack trace:
+[11-Jul-2018 23:24:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[11-Jul-2018 23:24:22 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:13
+[11-Jul-2018 23:24:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 14
+[11-Jul-2018 23:24:22 UTC] PHP Stack trace:
+[11-Jul-2018 23:24:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[11-Jul-2018 23:24:22 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:14
+[11-Jul-2018 23:24:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 15
+[11-Jul-2018 23:24:22 UTC] PHP Stack trace:
+[11-Jul-2018 23:24:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[11-Jul-2018 23:24:22 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:15
+[11-Jul-2018 23:24:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 16
+[11-Jul-2018 23:24:22 UTC] PHP Stack trace:
+[11-Jul-2018 23:24:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[11-Jul-2018 23:24:22 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:16
+[11-Jul-2018 23:24:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 17
+[11-Jul-2018 23:24:22 UTC] PHP Stack trace:
+[11-Jul-2018 23:24:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[11-Jul-2018 23:24:22 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:17
+[11-Jul-2018 23:24:22 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php on line 22
+[11-Jul-2018 23:24:22 UTC] PHP Stack trace:
+[11-Jul-2018 23:24:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:0
+[11-Jul-2018 23:24:22 UTC] PHP   2. array_push() /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/dashboard.php:22
+[19-Jul-2018 02:15:09 UTC] PHP Parse error:  syntax error, unexpected '"</a></td>';                  ' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 210
+[19-Jul-2018 02:15:21 UTC] PHP Parse error:  syntax error, unexpected ''</a></td>'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 209
+[19-Jul-2018 02:15:40 UTC] PHP Parse error:  syntax error, unexpected ''</a></td>'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 209
+[19-Jul-2018 15:04:53 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 87
+[19-Jul-2018 23:05:02 UTC] PHP Parse error:  syntax error, unexpected '$count' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 176
+[19-Jul-2018 23:05:17 UTC] PHP Parse error:  syntax error, unexpected '$count' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 176
+[19-Jul-2018 23:06:31 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 234
+[20-Jul-2018 00:26:43 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 48
+[20-Jul-2018 00:26:56 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/addresource.php on line 48
+[20-Jul-2018 17:47:01 UTC] PHP Parse error:  syntax error, unexpected '&' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 101
+[20-Jul-2018 17:59:41 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 14
+[20-Jul-2018 17:59:58 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 14
+[20-Jul-2018 18:17:54 UTC] PHP Parse error:  syntax error, unexpected ''null'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 11
+[20-Jul-2018 19:22:44 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/searchresults.php on line 227
+[20-Jul-2018 19:44:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 11
+[20-Jul-2018 20:03:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 25
+[20-Jul-2018 20:03:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 24
+[20-Jul-2018 20:04:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 24
+[20-Jul-2018 20:05:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 24
+[20-Jul-2018 20:05:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 24
+[20-Jul-2018 20:05:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 24
+[20-Jul-2018 20:05:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 24
+[20-Jul-2018 20:07:14 UTC] PHP Parse error:  syntax error, unexpected 'no' (T_STRING), expecting '(' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 14
+[20-Jul-2018 20:07:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 24
+[21-Jul-2018 14:47:08 UTC] PHP Parse error:  syntax error, unexpected '$enteredID' (T_VARIABLE) in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/request.php on line 22
+[21-Jul-2018 15:09:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/6400Summer18Team04/Phase 3/Team004/resourcestatus.php on line 45

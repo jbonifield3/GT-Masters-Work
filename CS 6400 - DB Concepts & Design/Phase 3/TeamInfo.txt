@@ -1,0 +1,20 @@
+Team##:
+Diego Carvallo    email: dcarvallo3@gatech.edu
+James Bonifield    email: jbonifield3@gatech.edu
+Duc Thai           email: dthai8@gatech.edu
+Jiawei Du           email: jdu80@gatech.edu
+
+
+SQL PAGES
+/Team004/AddIncident.php - by DCARVALLO
+/Team004/addresource.php - by DCARVALLO
+/Team004/login.php - DCARVALLO and DTHAI
+/Team004/request.php - DCARVALLO
+/Team004/resourcereport-DTHAI
+/Team004/resourcestatus- DTHAI
+/Team004/searchresults-JBONIFIELD
+/Team004/sidebar.php - dcarvallo, Jbonifield, DTHAI
+
+
+ALL FILES ARE LOCATED UNDER 
+/PHASE 3/Team004/
